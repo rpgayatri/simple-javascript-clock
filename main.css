@@ -1,4 +1,9 @@
 html {
+  background: url(images/mountains.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -6,7 +11,7 @@ html {
 }
 
 .clock-face {
-  border: 28px darkblue solid;
+  border: 25px rgb(3, 46, 9) solid;
   padding: 5px;
   height: 360px;
   width: 360px;
@@ -35,13 +40,13 @@ html {
 
 .seconds {
   height: 7px;
-  background-color: mediumvioletred;
+  background-color: red;
 }
 
 .needle1 {
   height: 45px;
   width: 6px;
-  background-color: brown;
+  background-color: rgb(34, 33, 33);
   position: relative;
   left: 50%;
 }
@@ -49,7 +54,7 @@ html {
 .needle2 {
   height: 45px;
   width: 6px;
-  background-color: brown;
+  background-color: rgb(34, 33, 33);
   position: relative;
   left: 50%;
   top: 75%;
@@ -58,7 +63,7 @@ html {
 .needle3 {
   height: 6px;
   width: 45px;
-  background-color: brown;
+  background-color: rgb(34, 33, 33);
   position: relative;
   top: 25%;
 }
@@ -66,7 +71,7 @@ html {
 .needle4 {
   height: 6px;
   width: 45px;
-  background-color: brown;
+  background-color: rgb(34, 33, 33);
   position: relative;
   top: 25%;
   left: 88%;
